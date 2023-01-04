@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class GugudanPro2 {
+public class GugudanPro2 { // 실행 안됌
     public static void main(String[] args) {
         System.out.println("숫자를 두개를 입력해주세요:");
         Scanner scanner = new Scanner(System.in);
@@ -13,8 +13,11 @@ public class GugudanPro2 {
         int first = Integer.parseInt(splitValue[0]);
         int second = Integer.parseInt(splitValue[1]);
 
-        for (int i = 1; i < number; i++){
-            System.out.println(number*i);
+        for (first = 1; first < number; first++){
+            System.out.println(number*first);
+        }
+        for (second = 1; second<number;second++){
+            System.out.println(number*second);
         }
 
 

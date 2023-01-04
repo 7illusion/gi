@@ -7,7 +7,6 @@ public class forPractice {
         for ( i =1; i<=5; i++){
             System.out.print(i); //print 는 한 줄에 표현이 됌
         }
-
         for (i=1;i<=5;i++){
             sum +=i;
             System.out.printf("1에서%d까지 합은:%d\n",i,sum); //printf 은 String,int,int 형식임
